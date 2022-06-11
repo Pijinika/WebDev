@@ -1,0 +1,147 @@
+<html>
+<title>Contact Me</title>
+
+
+<head>
+    <link rel="stylesheet type="text/css" href="stylee.css">
+     
+                                                           
+    <script language="JavaScript">
+                                 
+       var valid='true';
+       function validateForm()
+            {
+             if(document.formvalidation.nname.value=="")
+               {
+                alert("Please fill in name,you must not forget that.");
+                valid='false';
+               }
+                                                                     
+            if(document.formvalidation.eml.value=="")
+               {
+                alert("Please fill your email.");
+                valid='false';                                                         
+               }
+                                               
+                                               
+                                               
+            if((document.formvalidation.gender[0].checked==false) && (document.formvalidation.gender[1].checked==false)) 
+                {
+                  alert("Please choose your gender!");
+                  valid='false';                                
+                }
+                                                    
+            if((document.formvalidation.interest[0].checked==false) && (document.formvalidation.interest[1].checked==false) &&            (document.formvalidation.interest[2].checked==false))
+                {
+                  alert("Please choose your interests!");
+                  valid='false';                                
+                }                                    
+                                 
+            }
+                                 
+                                 
+                                 
+    </script>                             
+                                                           
+</head>
+<body>
+                                                                     
+<div class="border1">
+       <div class="navbar">
+
+          <ul>
+
+<li><a href="index.html">HOME</a></li>
+<li><a href="aboutme.html">ABOUT ME</a></li>
+
+<li style="float:right"><a href="contact.html">CONTACT</a></li>
+
+</ul>
+</div>
+    <div class="header">
+    CONTACT ME/FORM
+    </div>
+    </div>        
+                       
+                       
+         <div class="frm">              
+     <form name="formvalidation" action='' method='POST' onsubmit='return validateForm()'>
+                             
+     Name:
+     <input type='text' name='nname' size="20" placeholder='Enter your full name' id="sizing" >  
+     <br><br>
+     Email:
+     <input type='text' name='eml' placeholder='Enter your e-mail' id="sizing">  
+     <br><br>
+     Gender:
+     <input type='radio' name='gender' value='Male'>Male 
+     <input type='radio' name='gender' value='Female'>Female
+     <br><br>
+     Age:
+     <select name=age>
+        <option value='18'>18 years old
+        <option value='19'>19 years old
+        <option value='20'>20 years old
+        <option value='21'>21 years old                        
+        <option value='22'>22 years old                    
+        <option value='23'>23 years old                        
+        <option value='24'>24 years old                        
+        <option value='25'>25 years old                        
+        <option value='26'>26 years old                        
+        <option value='27'>27 years old                        
+        <option value='28'>28 years old                        
+        <option value='29'>29 years old           
+    </select>
+    <br><br> 
+     Interest: <br>
+     <input type='checkbox' name='interest' value='Futsal'>Futsal Together <br>
+     <input type='checkbox' name='interest' value='Work'>Work Together   <br> 
+     <input type='checkbox' name='interest' value='Inquiry'>General Inquiries  <br>  
+    <br><br>
+    More/What you feel about this website: <br>
+    <textarea name='more' rows='4' cols='40' > 
+    </textarea>                            
+     <br>
+      <input type='submit' name='buttonsubmit' value='SUBMIT'> 
+      <input type='reset' name='reset' value='RESET'>                                                                          
+                                
+                             
+ </form>    
+        Contact Number : 019-6713436                                                                      
+        </div>
+                                                                              
+                                                                              
+
+
+<div class="border2">
+<div class="socmed">
+                   
+ <a href="https://twitter.com/aliffhafizii" target="_blank"> <img src="twitter.png" alt="My Twitter" width="4%"> </a>
+ <a href="https://www.instagram.com/piji.nino/" target="_blank"> <img src="insta.webp" alt="My Instagram" width="4%" > </a>
+ <a href="https://wa.link/h28atp" target="_blank"> <img src="ws.png" alt="My WhatsApp" width="4%">
+    </div>   </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                  
+
+
+
+</body>
+</html>
